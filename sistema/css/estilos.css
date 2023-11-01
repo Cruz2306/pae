@@ -1,0 +1,196 @@
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(../img/jj.jpg);
+  ;
+    background-color: rgb(106, 106, 221);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    }
+
+.estilopregunta{
+    width: 25rem;
+    min-height: 200px;
+    background-color: aliceblue;
+    opacity: 0,8;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 21rem;
+}
+.estilorespuesta{
+    width: 70vh;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+.estilorespuesta:hover{
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: all 500ms ease-in;
+    z-index: 1;
+    background-color: rgba(240, 248, 255, 0.622);
+    cursor: pointer;
+}
+.texto{
+    color: black;
+}
+
+.formulario{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20rem;
+}
+#TableroDeJuego{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+   .color_fondo{
+    background-color: white;
+    padding-bottom: 2rem;
+    }
+      .form-register {
+        width: 400px;
+        background: #ffffff;
+        padding: 45px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color:black;
+        box-shadow: 7px 13px 37px #000;
+        padding-left: 22px;
+      }
+      .form-register h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        }
+      .controls {
+        margin-top: center;
+        width: 100%;
+        background: #edf3f845;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border: 1px solid #1011125b;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: black;
+        
+      }
+      .form-register p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+      }
+      .form-register a {
+        color: rgb(238, 224, 224);
+        text-decoration: none;
+      }
+      .form-register a:hover {
+        color: rgb(24, 23, 23);
+        text-decoration: underline;
+      }
+      .form-register .botons {
+        width: 100%;
+        background: #f81818fa;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 10px 0;
+        font-size: 16px;
+        border-radius: 2rem;
+      }
+.border{
+ margin-bottom: 2vh;
+padding-top: 18vh;
+padding-bottom: 20vh;
+margin-top: 2.5vh;
+margin-left: 3vh;
+border-style: solid;
+color: white;
+-webkit-box-shadow: 1px -3px 27px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -3px 27px 10px rgba(0,0,0,0.75);
+box-shadow: 1px -3px 27px 10px rgba(0,0,0,0.75);
+}
+.jjj{
+  text-align: center;
+}
+.botons1{
+  width: 100%;
+  background: #f81818fa;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 2rem;
+}
+
+.botons{
+  background-color: red;
+  border-radius: 10vh;
+
+}
+
+.ingreso a{  
+  text-align: center;
+  color: black;
+}
+
+.opciones{
+  justify-items: center;
+  text-align: center;
+}
+
+h3{
+  display: inline-block;
+}
+.rr{
+  display: flex;
+  
+  
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.imagen-1,.imagen_2{
+  position: absolute;
+  
+}
+.imagen-1{
+  right: 0px;
+}
+.imagen_2{
+  left: 0px;
+}
+div h3{
+  position: absolute;
+   z-index: 1;
+   margin: auto;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+}
+
